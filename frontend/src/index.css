@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background-color: #F8F7F3;
+  color: #202622;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars with warm paper aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2EFE9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D5DFD3;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8F9E8B;
+}
+
+/* Academic card & panel styles */
+.paper-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E2DA;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(32, 38, 34, 0.04);
+}
+
+.paper-panel {
+  background-color: #FBFBF9;
+  border: 1px solid #E5E2DA;
+  border-radius: 6px;
+}
+
+.editorial-header {
+  font-family: 'Newsreader', Georgia, serif;
+  letter-spacing: -0.015em;
+}
